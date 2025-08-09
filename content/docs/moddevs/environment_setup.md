@@ -34,7 +34,13 @@ Install .NET SDK 6.0 or later. You can use newer versions, like [10.0](https://d
 - Download and install [Rider](https://www.jetbrains.com/rider/) or [Visual Studio](https://visualstudio.microsoft.com/).
 - If you prefer a lightweight option, you can use [Visual Studio Code](https://code.visualstudio.com/) with extensions.
 
-### Seting up your project
+### Setting up your project
+
+**Choose your setup approach:**
+
+📦 **[Templates](#templates)** - Quick start with existing templates (recommended for beginners)  
+🛠️ **[Creating Custom Templates](/docs/moddevs/creating_templates/)** - Build a reusable template for future projects  
+⚙️ **[Manual Setup](#manual-setup)** - Complete control over project configuration  
 
 #### Templates
 
@@ -48,6 +54,8 @@ There's an assortment of templates available for quickly starting your modding p
 - [Basic modding template for IL2CPP](https://github.com/XOWithSauce/schedule-il2cpp-example) - A simple template for creating mods with IL2CPP. By [XOWithSauce](https://github.com/XOWithSauce).
 - [S1 Mono+IL2CPP C# Project Template](https://github.com/weedeej/S1MONO_IL2CPP_Template) - Clean template with conditional compilation for Mono and IL2CPP. Includes AssetBundleUtils for loading asset bundles. By [weedeej](https://github.com/weedeej).
 - [Yet Another MelonMod Template with batteries included](https://github.com/k073l/S1MelonModTemplate) - Template featuring cross-backend (IL2CPP and Mono) compatibility, easy build and test process, automatic loading of testing mods, and more. By [k073l](https://github.com/k073l).
+
+**Want to create your own template?** If you plan to create multiple mods or need a custom setup, check out our [Creating Custom Templates](/docs/moddevs/creating_templates/) guide. You'll learn how to build a reusable template with zero setup time for future projects.
 
 #### Manual Setup
 
