@@ -22,7 +22,7 @@ Be sure to also check out <b>#dev-resources</b> in <a href="https://discord.gg/U
 - [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/) - C# programming guide
 - [FishNet Docs](https://web.archive.org/web/20240324100202/https://fish-networking.gitbook.io/docs/) - FishNet is a networking library used in Schedule I. The link is an archived version of v3. 
 - [Steamworks .NET Documentation](https://steamworks.github.io/) - Documentation for the Steamworks.NET library, which is used for Steam integration (achievements, lobbies) in Schedule I. [Official Steamworks Docs](https://partner.steamgames.com/doc/api) are also available.
-- [S1API Docs](https://ifbars.github.io/S1API-docs/) - Documentation for S1API, a community project that serves as a cross-compatibility layer for Schedule I mods. It provides a unified API for modders to interact with the game without worrying about backend differences. Documentation by [ifBars](https://github.com/ifBars), S1API by [KaBooMa](https://github.com/KaBooMa)
+- [S1API.Forked Docs](https://ifbars.github.io/S1API/) - Documentation for S1API, a community project that serves as a cross-compatibility layer for Schedule I mods. It provides a unified API for modders to interact with the game without worrying about backend differences. Documentation and [S1API.Forked](https://github.com/ifBars/S1API) by [ifBars](https://github.com/ifBars), original S1API by [KaBooMa](https://github.com/KaBooMa)
 
 ## Tools
 - [ILSpy](https://github.com/icsharpcode/ILSpy) - .NET assembly browser and decompiler. Can be used to read the game's code or mod assemblies.

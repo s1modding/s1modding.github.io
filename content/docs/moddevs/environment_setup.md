@@ -13,6 +13,10 @@ To start off, you need to set up your modding environment. This guide will help 
 
 ## Prerequisites
 
+{{< alert context="success" >}}
+Modders who don't want to deal with code can check out the <a href="https://estonla.github.io/S1MC.github.io/">Schedule I Mod Creator</a> (work in progess), a no-code modding tool.
+{{< /alert >}}
+
 {{< alert context="info" >}}
 Before starting, ensure you have a copy of Schedule I installed via Steam and basic familiarity with programming concepts and C#.
 {{< /alert >}}
@@ -34,7 +38,7 @@ Install .NET SDK 6.0 or later. You can use newer versions, like [10.0](https://d
 - Download and install [Rider](https://www.jetbrains.com/rider/) or [Visual Studio](https://visualstudio.microsoft.com/).
 - If you prefer a lightweight option, you can use [Visual Studio Code](https://code.visualstudio.com/) with extensions.
 
-### Seting up your project
+### Setting up your project
 
 #### Templates
 
@@ -48,6 +52,7 @@ There's an assortment of templates available for quickly starting your modding p
 - [Basic modding template for IL2CPP](https://github.com/XOWithSauce/schedule-il2cpp-example) - A simple template for creating mods with IL2CPP. By [XOWithSauce](https://github.com/XOWithSauce).
 - [S1 Mono+IL2CPP C# Project Template](https://github.com/weedeej/S1MONO_IL2CPP_Template) - Clean template with conditional compilation for Mono and IL2CPP. Includes AssetBundleUtils for loading asset bundles. By [weedeej](https://github.com/weedeej).
 - [Yet Another MelonMod Template with batteries included](https://github.com/k073l/S1MelonModTemplate) - Template featuring cross-backend (IL2CPP and Mono) compatibility, easy build and test process, automatic loading of testing mods, and more. By [k073l](https://github.com/k073l).
+- [S1API Template](https://github.com/ifBars/S1APITemplate) - A template project for creating Schedule One mods using S1API, supporting both Mono and IL2CPP builds with a cross-compatibility option. S1API provides common game abstractions so you can build a single assembly that works across Mono and IL2CPP, reducing reverse-engineering and setup overhead. By [ifBars](https://github.com/ifBars).
 
 #### Manual Setup
 
