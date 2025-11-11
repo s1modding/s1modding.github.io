@@ -11,6 +11,20 @@ toc: true
 
 Sometimes things don't work as expected. Here are some common issues and their solutions.
 
+If you encounter an issue not listed here, consider asking for help in the Modding Discord server or report the problem to the specific mod's author.
+
+{{< alert context="warning" >}}
+When reporting issues, always include relevant information such as:
+<ul>
+    <li>Log files (see <a href="/docs/modusers/common_terms/#log-files">Common Terms</a> for log file locations)</li>
+    <li>Game version and branch (IL2CPP or Mono)</li>
+    <li>MelonLoader version</li>
+    <li>List of installed mods/plugins</li>
+    <li>Steps to reproduce the issue and/or relevant screenshots</li>
+</ul>
+<b>Log files are especially important</b>, as they often contain error messages that can help diagnose the problem.
+{{< /alert >}}
+
 ## Mod not loading
 Verify that the mod is in `Mods` folder in the game directory.
 

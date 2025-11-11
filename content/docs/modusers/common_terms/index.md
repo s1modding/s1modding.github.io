@@ -29,7 +29,25 @@ Since `beta` can refer to either options, due to Steam's vague naming, it is com
 Mods can be made for either backend, but they are not compatible with each other. IL2CPP mods will not work with Mono and vice versa.
 
 ## Log files
-When you run Schedule I with MelonLoader, it generates log files that can help you troubleshoot issues with mods or plugins. The latest log file is located in `<game directory>/MelonLoader/Latest.log`. This file contains information about the game, mods, and plugins that were loaded, as well as any errors or warnings that occurred during the loading process. Additionally, the game generates a `Player.log` file in `C:\Users\<user>\AppData\LocalLow\TVGS\Schedule I`.
+When you run Schedule I with MelonLoader, it generates log files that can help you troubleshoot issues with mods or plugins. This file contains information about the game, mods, and plugins that were loaded, as well as any errors or warnings that occurred during the loading process. Additionally, the game generates a `Player.log` file in `C:\Users\<user>\AppData\LocalLow\TVGS\Schedule I`.
+
+### MelonLoader log file locations
+#### Default location
+If you installed MelonLoader manually (or via an installer), latest log file will generate in the following location:
+`<game directory>/MelonLoader/Latest.log`
+
+#### Mod manager locations
+If you are using a mod manager, the log file may be located in a different directory. Here are some common locations for popular mod managers, assuming you are using the default profile named "Default":
+
+`C:\Users\<user>\AppData\Roaming\r2modmanPlus-local\ScheduleI\profiles\Default\MelonLoader` - r2modman
+
+`C:\Users\<user>\AppData\Roaming\com.kesomannen.gale\schedule-i\profiles\Default\MelonLoader` - Gale
+
+`C:\Users\<user>\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ScheduleI\profiles\Default\MelonLoader` - Thunderstore Mod Manager
+
+{{< alert context="info" >}}
+Hint - You can easily access `C:\Users\<user>\AppData\Roaming` folder by typing `%appdata%` in the File Explorer address bar and pressing Enter.
+{{< /alert >}}
 
 ## Save files
 Save files for the game are stored in the `C:\Users\<user>\AppData\LocalLow\TVGS\Schedule I\Saves\<steam_id>` directory. Be sure to back up your save files before installing or updating mods, as some mods may modify or delete save files.
