@@ -12,7 +12,7 @@ toc: true
 Here are some resources, including ones developed by the community, that can help you with modding Schedule I.
 
 {{< alert context="info" >}}
-Be sure to also check out <b>#dev-resources</b> in <a href="https://discord.gg/9Z5RKEYSzq">Discord</a>
+Be sure to also check out <b>#dev-resources</b> in <a href="https://discord.gg/UZNWsCJH76">Discord</a>
 {{< /alert >}}
 
 ## Documentation
