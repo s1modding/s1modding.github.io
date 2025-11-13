@@ -14,7 +14,7 @@ To start off, you need to set up your modding environment. This guide will help 
 ## Prerequisites
 
 {{< alert context="success" >}}
-Modders who don't want to deal with code can check out the <a href="https://estonla.github.io/S1MC.github.io/">Schedule I Mod Creator</a> (work in progess), a no-code modding tool.
+Modders who don't want to deal with code can check out the <a href="https://s1m0d.github.io/S1MC.github.io/">Schedule I Mod Creator</a> (work in progess), a no-code modding tool.
 {{< /alert >}}
 
 {{< alert context="info" >}}
