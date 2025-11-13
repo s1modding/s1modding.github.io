@@ -46,7 +46,7 @@ If you are using a mod manager, the log file may be located in a different direc
 `C:\Users\<user>\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ScheduleI\profiles\Default\MelonLoader` - Thunderstore Mod Manager
 
 {{< alert context="info" >}}
-Hint - You can easily access `C:\Users\<user>\AppData\Roaming` folder by typing `%appdata%` in the File Explorer address bar and pressing Enter.
+You can easily access <code>C:\Users\&lt;user&gt;\AppData\Roaming</code> folder by typing <code>%appdata%</code> in the File Explorer address bar and pressing Enter.
 {{< /alert >}}
 
 ## Save files
