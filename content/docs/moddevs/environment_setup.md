@@ -96,4 +96,4 @@ Further information can be found in [Creating Your First Mod](/docs/moddevs/crea
 - [MelonLoader Documentation](https://melonwiki.xyz/)
 - [Unity Documentation](https://docs.unity3d.com/2022.3/Documentation/Manual/index.html)
 - [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Schedule I Modding Discord](https://discord.gg/UZNWsCJH76)
+- [Schedule I Modding Discord](https://discord.gg/UD4K4chKak)
