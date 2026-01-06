@@ -51,35 +51,41 @@ It is assumed that you have a working installation of Schedule I on Linux (using
 
 Install [protontricks](https://github.com/Matoking/protontricks) for easy installation of the required dependencies.
 
-This allows you to install .NET Desktop 6.0 automatically, via `protontricks 3164500 dotnetdesktop6`. You also might need to install the Visual C++ 2015-2019 Redistributable via `protontricks 3164500 vcrun2015`.
+This allows you to install .NET Desktop 6.0 automatically, via `protontricks 3164500 dotnet6`. You also might need to install the Visual C++ 2015-2019 Redistributable via `protontricks 3164500 vcrun2015`.
+
+You can also do that with GUI (e.g. on Steam Deck) by opening the Discover app, searching for "protontricks", installing it, and then launching it. From there select Schedule I, `Select the default wineprefix` and then `Install a Windows DLL or component`, and select `dotnet6` and `vcrun2015` from the list to install them.
 
 ##### Installing MelonLoader
 
-Download [MelonLoader 0.7.0](https://github.com/LavaGang/MelonLoader/releases/download/v0.7.0/MelonLoader.Installer.Linux) and run it.
-Make sure to give it execute permissions with:
+Download [MelonLoader 0.7.0](https://github.com/LavaGang/MelonLoader/releases/download/v0.7.0/MelonLoader.x64.zip) and extract it to the game's folder.
 
-```bash
-chmod +x MelonLoader.Installer.Linux
-```
+Your game folder should contain the `MelonLoader` folder and `version.dll` alongside game files like `Schedule I.exe`.
 
-Follow the instructions on screen to install MelonLoader.
+To make sure MelonLoader starts with the game, add `WINEDLLOVERRIDES="version=n,b" %command%` to the launch options of Schedule I in Steam. Alternatively, if you are using Wine, you can handle the override in `winecfg` for your Wine prefix.
 
-To make sure MelonLoader starts with the game, add `WINEDLLOVERRIDES="version=n,b" %command%` to the launch options of Schedule I in Steam. If you are using Wine, you can handle the override in `winecfg` for your Wine prefix.
+Example on Proton with GUI Protontricks:
+
+Select `Run winecfg` from the Protontricks menu, select `Libraries` tab, navigate to `New override for library`, click the dropdown arrow and select `version`. Validate that the last position in the list below is `version (native, builtin)`. Click OK, OK and close the window.
 
 #### MacOS
 
-There are [reports](https://www.applegamingwiki.com/wiki/Schedule_I) of Schedule I running on MacOS using Wine, however I found the most success with running it with CrossOver.
-Here, it will also be assumed that you have a working installation of Schedule I on MacOS (using Wine or CrossOver).
+There are [reports](https://www.applegamingwiki.com/wiki/Schedule_I) of Schedule I running on MacOS using Wine, CrossOver or other Wine-based solutions like Sikarugir. 
+
+For the best chances of success, use one of listed solutions to run a Windows version of Steam and install Schedule I through it. This will be the way you run the game on MacOS.
+
+Before proceeding with MelonLoader installation, make sure that you have a working installation of Schedule I on MacOS.
 
 ##### Installing pre-requisites
 
-Install them in the same way as on Windows with CrossOver, or use `winetricks` in your Wine prefix to install the required dependencies.
+Install them in the same way as on Windows with CrossOver, or use `winetricks` in your Wine prefix to install the required dependencies (see Linux section).
+
+If you're using Sikarugir, you can open the `Configure.app` by clicking `Show package contents` on your Sikarugir-managed Steam installation, navigating to `Contents` and running `Configure.app`. `winecfg` can be found under the `Tools` tab and `winetricks` in the bottom bar.
 
 ##### Installing MelonLoader
 
-Follow the same steps as on Windows.
+Follow the same steps as on Linux.
 
-You also need to make sure that the overrides are set in Steam launch options. Alternatively, you can set the overrides in your Wine prefix with `winecfg`, or click "Wine Configuration" in CrossOver and set the overrides in libraries.
+You also need to make sure that the overrides are set in Steam launch options. Alternatively, you can set the overrides in your Wine prefix with `winecfg`, or click "Wine Configuration" in CrossOver and set the overrides in libraries. In Sikarugir use the `winecfg` in `Configure.app` and/or set the `Unix Commands` in the `Configuration` tab of `Configure.app` to `export WINEDLLOVERRIDES="version=n,b"`.
 
 ## Running Schedule I with MelonLoader
 

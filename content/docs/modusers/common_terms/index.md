@@ -51,3 +51,5 @@ You can easily access <code>C:\Users\&lt;user&gt;\AppData\Roaming</code> folder 
 
 ## Save files
 Save files for the game are stored in the `C:\Users\<user>\AppData\LocalLow\TVGS\Schedule I\Saves\<steam_id>` directory. Be sure to back up your save files before installing or updating mods, as some mods may modify or delete save files.
+
+If you're using Proton, the save directory can be found in `/home/<user>/.local/share/Steam/steamapps/compatdata/3164500/pfx/drive_c/users/steamuser/AppData/LocalLow/TVGS/` due to how Proton handles its wineprefix.
