@@ -18,7 +18,7 @@ This guide assumes you have already installed MelonLoader and set up your develo
 ## Your First Mod
 
 {{< alert context="info" >}}
-We will be working in Mono backend, as it is easier to set up. This example will work with IL2CPP as well, but in larger projects, working with IL2CPP can be more complex.
+We will be working in Mono backend, as it is easier to set up. This example will work with IL2CPP as well, but in larger projects, working with IL2CPP can be more complex. Learn more about the difference between Mono and IL2CPP in the <a href="/docs/modusers/common_terms/">Common Terms</a> section.  
 {{< /alert >}}
 
 ```csharp
